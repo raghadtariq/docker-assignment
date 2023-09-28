@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    image: your-docker-hub-username/nginx-static-website:latest # Replace with your Docker Hub username and image name
+    image: your-dockerhub-username/nginx-static-website:latest # Replace with your Docker Hub image name
     ports:
       - "80:80"
