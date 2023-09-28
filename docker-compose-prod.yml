@@ -1,6 +1,6 @@
 version: '3'
 services:
   web:
-    image: raghaddrabee/index.html:latest # Replace with your Docker Hub image name
+    image: raghaddrabee/nginx:latest # Replace with your Docker Hub image name
     ports:
       - "80:80"
